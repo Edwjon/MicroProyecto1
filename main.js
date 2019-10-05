@@ -31,3 +31,4 @@ function goToHabilidades() {
 function goToTop() {
     window.scrollTop;
 }
+
