@@ -11,6 +11,20 @@
 </head>
 <body>
 
+        
+
+        <div id="navbar">
+                <a href="#default" id="logo">Edward Pizzurro</a>
+                <div id="navbar-right">
+                  <a class="active" href="#home" onclick="goToPortafolio()">Portafolio</a>
+                  <a href="#contact" onclick="goToAboutme()">About me</a>
+                  <a href="#about" onclick="goToHabilidades()">Habilidades</a>
+                  <a href="#about" onclick="goToContact()">Contact me  .</a>
+                </div>
+        
+        </div>
+        <div style="margin-top:30px;padding:15px 15px 150px;font-size:30px"></div>
+
     <div class="contenedor-img">
         <div class="container">
             <h1>Bienvenido a mi página</h1>
@@ -19,7 +33,10 @@
         </div>
     </div>
 
-    <div class="profile">
+    
+
+
+    <div class="profile" id="perfil">
 
         <h1>Portafolio</h1>
 
@@ -38,10 +55,79 @@
         <div class="celda">
             <img class="img-proyecto" src="instagram.png">
             <h2><strong>Instagram</strong></h2>
-            <p class="descripcion-proyecto">Este es un proyecto que cree simplemente para que mi novia subiera sus fotos de viajes y las compartiera con sus amigos. El proyecto se volvió muy grande y lo terminé vendiendo a una compania llamada "Facebook" por mil millones de USD Dólares. Es uno de los proyecto más interesantes que he hecho. </p>
+            <span style="font-family: 'Indie Flower', cursive;">Este es un proyecto que cree simplemente para que mi novia subiera sus fotos de viajes y las compartiera con sus amigos. El proyecto se volvió muy grande y lo terminé vendiendo a una compania llamada "Facebook" por mil millones de USD Dólares. Es uno de los proyecto más interesantes que he hecho. </span>
         </div>
 
     </div>
+
+
+
+
+    <div class="aboutme" id="acercademi">
+        <h1>About me</h1>
+
+        <div class="izquierda">
+            <img class="mia" src="yo.jpg">
+        </div>
+
+        <div class="derecha">
+                <span style="font-family: 'Indie Flower', cursive; font-size: 25px;">Me llamo Edward Pizzurro y tengo 19 años. Empecé a programar cuando tenía 14 años, aprendiendo a hacer aplicaciones para el sistema operativo iOS en el lenguaje Swift. Actualmente estudio ingeniería en Sistemas en la Universidad Metropolitana en Caracas, Venezuela. Me gusta mucho viajar y programar aplicaciones. En un futuro espero trabajar como programador en alguna compania o crear mis propias aplicaciones.</span>
+        </div>
+        
+    </div>
+
+
+
+    <div class="padre" id="habilities">
+            <h1>Habilidades</h1>
+            <div class="hijo">
+                <h2>HTML</h2>
+                <h2>30 / 100</h2>
+            </div>
+
+            <div class="hijo">
+                <h2>CSS</h2>
+                <h2>40 / 100</h2>
+            </div>
+
+            <div class="hijo">
+                <h2>JavaScript</h2>
+                <h2>50 / 100</h2>
+            </div>
+
+            <div class="hijo">
+                <h2>Swift</h2>
+                <h2>70 / 100</h2>
+            </div>
+
+            <div class="hijo">
+                <h2>Java</h2>
+                <h2>50 / 100</h2>
+            </div>
+
+            <div class="hijo">
+                <h2>Inglés</h2>
+                <h2>80 / 100</h2>
+            </div>
+    </div>
+
+
+
+    <div class="contact" id="contactado">
+        <h1>Contact me</h1>
+
+        <div class="contacto">
+
+        </div>
+
+    </div>
+
+
+    <a class='flotante' href='#' onclick="goToTop()"> <img src="flecha.png"/> </a>
+   
+    <script src="main.js"></script>
+
+
     
 </body>
 </html>
